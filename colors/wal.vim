@@ -21,7 +21,7 @@ hi NonText ctermbg=NONE ctermfg=0
 hi Comment ctermbg=NONE ctermfg=8
 hi Conceal ctermbg=NONE
 hi Constant ctermbg=NONE ctermfg=3
-hi Error ctermbg=1 ctermfg=7
+hi Error ctermbg=NONE ctermfg=7
 hi Identifier ctermbg=NONE ctermfg=1 cterm=BOLD
 hi Ignore ctermbg=8 ctermfg=0
 hi PreProc ctermbg=NONE ctermfg=3
@@ -31,12 +31,11 @@ hi String ctermbg=NONE ctermfg=2
 hi Number ctermbg=NONE ctermfg=3
 hi Todo ctermbg=2 ctermfg=0
 hi Type ctermbg=NONE ctermfg=3
-hi Underlined ctermbg=NONE ctermfg=1 cterm=underline
 hi StatusLine ctermbg=7 ctermfg=0
 hi StatusLineNC ctermbg=8 ctermfg=0
-hi TabLine ctermbg=NONE ctermfg=0
-hi TabLineFill ctermbg=NONE ctermfg=0
-hi TabLineSel ctermbg=NONE ctermfg=NONE
+hi TabLine ctermbg=0 ctermfg=1
+hi TabLineFill cterm=reverse ctermbg=5 ctermfg=0
+hi TabLineSel cterm=underline ctermbg=0 ctermfg=NONE
 hi TermCursorNC ctermbg=3 ctermfg=0
 hi VertSplit ctermbg=8 ctermfg=9
 hi Title ctermbg=NONE ctermfg=4
@@ -62,7 +61,7 @@ hi DiffText ctermbg=NONE ctermfg=4
 hi IncSearch ctermbg=3 ctermfg=0
 hi Search ctermbg=3 ctermfg=0
 hi Directory ctermbg=NONE ctermfg=4
-hi MatchParen ctermbg=1 ctermfg=8
+hi MatchParen ctermbg=0 ctermfg=8
 hi ColorColumn ctermbg=4 ctermfg=0
 hi signColumn ctermbg=NONE ctermfg=4
 hi ErrorMsg ctermbg=NONE ctermfg=8
