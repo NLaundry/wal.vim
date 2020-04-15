@@ -16,7 +16,7 @@ let g:colors_name = 'wal'
 " highlight groups {{{
 
 " set t_Co=16
-hi Normal ctermbg=NONE ctermfg=7
+hi Normal ctermbg=NONE ctermfg=15
 hi NonText ctermbg=NONE ctermfg=0
 hi Comment ctermbg=NONE ctermfg=8
 hi Conceal ctermbg=NONE
@@ -34,10 +34,10 @@ hi Type ctermbg=NONE ctermfg=3
 hi StatusLine ctermbg=7 ctermfg=0
 hi StatusLineNC ctermbg=8 ctermfg=0
 hi TabLine ctermbg=0 ctermfg=1
-hi TabLineFill cterm=reverse ctermbg=5 ctermfg=0
-hi TabLineSel cterm=underline ctermbg=0 ctermfg=NONE
+hi TabLineFill cterm=reverse ctermbg=8 ctermfg=0
+hi TabLineSel cterm=underline ctermbg=0 ctermfg=11
 hi TermCursorNC ctermbg=3 ctermfg=0
-hi VertSplit ctermbg=8 ctermfg=9
+hi VertSplit ctermbg=2 ctermfg=2
 hi Title ctermbg=NONE ctermfg=4
 hi CursorLine ctermbg=2 ctermfg=0
 hi LineNr ctermbg=NONE ctermfg=8
@@ -71,7 +71,7 @@ hi Question ctermbg=NONE ctermfg=4
 hi WarningMsg ctermbg=1 ctermfg=0
 hi Cursor ctermbg=NONE ctermfg=8
 hi Structure ctermbg=NONE ctermfg=5
-hi CursorColumn ctermbg=8 ctermfg=7
+hi CursorColumn ctermbg=2 ctermfg=2
 hi ModeMsg ctermbg=NONE ctermfg=7
 hi SpellBad ctermbg=NONE ctermfg=1 cterm=underline
 hi SpellCap ctermbg=NONE ctermfg=4 cterm=underline
