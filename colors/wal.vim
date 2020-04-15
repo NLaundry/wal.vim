@@ -34,11 +34,11 @@ hi Type ctermbg=NONE ctermfg=3
 hi Underlined ctermbg=NONE ctermfg=1 cterm=underline
 hi StatusLine ctermbg=7 ctermfg=0
 hi StatusLineNC ctermbg=8 ctermfg=0
-hi TabLine ctermbg=NONE ctermfg=8
-hi TabLineFill ctermbg=NONE ctermfg=8
-hi TabLineSel ctermbg=4 ctermfg=0
+hi TabLine ctermbg=NONE ctermfg=0
+hi TabLineFill ctermbg=NONE ctermfg=0
+hi TabLineSel ctermbg=NONE ctermfg=NONE
 hi TermCursorNC ctermbg=3 ctermfg=0
-hi VertSplit ctermbg=8 ctermfg=0
+hi VertSplit ctermbg=8 ctermfg=9
 hi Title ctermbg=NONE ctermfg=4
 hi CursorLine ctermbg=2 ctermfg=0
 hi LineNr ctermbg=NONE ctermfg=8
